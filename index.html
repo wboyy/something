@@ -99,5 +99,22 @@ pesanwhatsapp = "Boleh nih, mau PAP? ><";
 const body = document.querySelector("body"); const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); initom.style="opacity:0;bottom:0;transition:none"; audio = new Audio('' + linkmp3.src); function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
 </script>
 <script src="script.js"></script>
+	<script>document.addEventListener('contextmenu', event=> event.preventDefault()); 
+  document.onkeydown = function(e) { 
+  if(event.keyCode == 123) { 
+  return false; 
+  } 
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+  return false; 
+  } 
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+  return false; 
+  } 
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+  return false; 
+  } 
+  } 
+  </script>
+
 </body>
 </html>
